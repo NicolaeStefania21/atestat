@@ -1,0 +1,329 @@
+/* Stiluri generale pentru întreaga pagină (se aplică doar pe pagina principală) */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://profesor.md/wp-content/uploads/2020/03/matematica.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    padding-top: 50px; /* Adăugăm un padding pentru a muta chenarul mai jos */
+}
+
+/* Centrarea conținutului pe întreaga pagină */
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Stiluri pentru chenarul central */
+.content {
+    background-color: rgba(0, 0, 0, 0.6);  /* Umbra mai puternică pentru a evidenția textul */
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 800px;
+    margin-top: 20px;  /* Reducem distanța de sus pentru a-l muta mai jos */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Stiluri pentru titlu */
+.title h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #ffcc00;
+    font-weight: bold;
+}
+
+/* Stiluri pentru citat */
+.quote p {
+    font-size: 1.5em;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+/* Lista de subtitluri */
+.subtitles ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.subtitles li {
+    margin: 10px 0;
+}
+
+.subtitles a {
+    text-decoration: none;
+    color: #ffcc00;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+.subtitles a:hover {
+    color: #ffffff;
+}
+
+/* Stil pentru secțiunea de întrebări și răspunsuri */
+.faq {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+.faq dt {
+    font-weight: bold;
+    margin-top: 15px;
+    color: #ffcc00;
+}
+
+.faq dd {
+    margin-left: 20px;
+    font-style: italic;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+
+/* Stiluri pentru pagina "Despre Matematica" */
+body.about-math {
+    background-image: url('https://profesor.md/wp-content/uploads/2020/03/matematica.jpg');
+    padding-top: 50px;
+}
+
+/* Centrarea conținutului pe pagina "Despre Matematica" */
+body.about-math .background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Stiluri pentru chenarul central pe pagina "Despre Matematica" */
+body.about-math .content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 800px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Stiluri pentru titlu pe pagina "Despre Matematica" */
+body.about-math .title h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #ffcc00;
+    font-weight: bold;
+}
+
+/* Stiluri pentru citat pe pagina "Despre Matematica" */
+body.about-math .quote p {
+    font-size: 1.5em;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+/* Stiluri pentru secțiunea de întrebări și răspunsuri pe pagina "Despre Matematica" */
+body.about-math .faq {
+    margin-top: 20px;
+    font-size: 1.1em; /* Micșorăm dimensiunea fontului pentru întrebări */
+}
+
+body.about-math .faq dt {
+    font-weight: bold;
+    margin-top: 15px;
+    color: #ffcc00;
+    font-size: 1.5em; /* Font mai mare pentru întrebări */
+}
+
+body.about-math .faq dd {
+    margin-left: 20px;
+    font-style: italic;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Stil pentru link-ul "Înapoi la pagina principală" */
+body.about-math .back-to-home {
+    margin-top: 30px;
+    text-align: center;
+}
+
+body.about-math .back-link {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #ffcc00;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+body.about-math .back-link:hover {
+    color: #ffffff;
+}
+
+/* Stiluri specifice pentru pagina "Resturi de Istorie" */
+body.history-rest {
+    background-image: url('https://profesor.md/wp-content/uploads/2020/03/matematica.jpg'); /* Imagine de fundal pentru pagina despre istorie */
+    padding-top: 50px; /* Adăugăm un padding pentru a muta chenarul mai jos */
+}
+
+/* Centrarea conținutului pe pagina "Resturi de Istorie" */
+body.history-rest .background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Stiluri pentru chenarul central pe pagina "Resturi de Istorie" */
+body.history-rest .content {
+    background-color: rgba(0, 0, 0, 0.6);  /* Umbra mai puternică pentru a evidenția textul */
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 800px;
+    margin-top: 100px;  /* Poziționăm chenarul mai jos pe pagina despre matematică */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Stiluri pentru titlu pe pagina "Resturi de Istorie" */
+body.history-rest .title h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #ffcc00;
+    font-weight: bold;
+}
+
+/* Stiluri pentru citat pe pagina "Resturi de Istorie" */
+body.history-rest .quote p {
+    font-size: 1.5em;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+/* Stiluri pentru informațiile istorice */
+body.history-rest .history-info h2,
+body.history-rest .history-info h3 {
+    color: #ffcc00;
+    margin-top: 20px;
+}
+
+body.history-rest .history-info p {
+    font-size: 1.2em;
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* Stil pentru link-ul "Înapoi la pagina principală" */
+body.history-rest .back-to-home {
+    margin-top: 30px;
+    text-align: center;
+}
+
+body.history-rest .back-link {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #ffcc00;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+body.history-rest .back-link:hover {
+    color: #ffffff;
+}
+/* Stiluri pentru pagina "Scopul Matematicii" */
+body.goal-of-math {
+    background-image: url('https://profesor.md/wp-content/uploads/2020/03/matematica.jpg'); /* Imagine de fundal pentru pagina Scopul Matematicii */
+    padding-top: 50px; /* Adăugăm un padding pentru a muta chenarul mai jos */
+}
+
+/* Centrarea conținutului pe pagina "Scopul Matematicii" */
+body.goal-of-math .background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Stiluri pentru chenarul central pe pagina "Scopul Matematicii" */
+body.goal-of-math .content {
+    background-color: rgba(0, 0, 0, 0.6);  /* Umbra mai puternică pentru a evidenția textul */
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 800px;
+    margin-top: 100px;  /* Poziționăm chenarul mai jos pe pagina Scopul Matematicii */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Stiluri pentru titlu pe pagina "Scopul Matematicii" */
+body.goal-of-math .title h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #ffcc00;
+    font-weight: bold;
+}
+
+/* Stiluri pentru citat pe pagina "Scopul Matematicii" */
+body.goal-of-math .quote p {
+    font-size: 1.5em;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+/* Stiluri pentru descrierea scopului matematicii */
+body.goal-of-math .description p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+/* Stil pentru secțiunea de întrebări și răspunsuri pe pagina "Scopul Matematicii" */
+body.goal-of-math .faq {
+    margin-top: 20px;
+    font-size: 1.1em; /* Micșorăm dimensiunea fontului pentru întrebări */
+}
+
+body.goal-of-math .faq dt {
+    font-weight: bold;
+    margin-top: 15px;
+    color: #ffcc00;
+    font-size: 1.5em; /* Font mai mare pentru întrebări */
+}
+
+body.goal-of-math .faq dd {
+    margin-left: 20px;
+    font-style: italic;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Stil pentru link-ul "Înapoi la pagina principală" */
+body.goal-of-math .back-to-home {
+    margin-top: 30px;
+    text-align: center;
+}
+
+body.goal-of-math .back-link {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #ffcc00;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+body.goal-of-math .back-link:hover {
+    color: #ffffff;
+}
