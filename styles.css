@@ -327,3 +327,326 @@ body.goal-of-math .back-link {
 body.goal-of-math .back-link:hover {
     color: #ffffff;
 }
+
+/* Stiluri pentru pagina "Pun pariu că nu știai" */
+body.did-you-know {
+    background-image: url('https://profesor.md/wp-content/uploads/2020/03/matematica.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    margin: 0;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+body.did-you-know .background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+body.did-you-know .content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 800px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body.did-you-know .title h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #ffcc00;
+    font-weight: bold;
+}
+
+body.did-you-know .quote p {
+    font-size: 1.5em;
+    font-style: italic;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+body.did-you-know .description ul {
+    text-align: left;
+    padding-left: 20px;
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #ffffff;
+}
+
+body.did-you-know .description ul li {
+    margin-bottom: 20px;
+}
+
+body.did-you-know .back-to-home {
+    margin-top: 30px;
+    text-align: center;
+}
+
+body.did-you-know .back-link {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #ffcc00;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+body.did-you-know .back-link:hover {
+    color: #ffffff;
+}
+/* Stiluri pentru pagina "Formule Interesante" */
+body.interesting-formulas {
+    background-image: url('https://profesor.md/wp-content/uploads/2020/03/matematica.jpg'); /* Imagine de fundal pentru pagina Formule Interesante */
+    padding-top: 50px; /* Adăugăm un padding pentru a muta chenarul mai jos */
+}
+
+/* Centrarea conținutului pe pagina "Formule Interesante" */
+body.interesting-formulas .background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Stiluri pentru chenarul central pe pagina "Formule Interesante" */
+body.interesting-formulas .content {
+    background-color: rgba(0, 0, 0, 0.6);  /* Umbra mai puternică pentru a evidenția textul */
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 800px;
+    margin-top: 100px;  /* Poziționăm chenarul mai jos pe pagina Formule Interesante */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Stiluri pentru titlu pe pagina "Formule Interesante" */
+body.interesting-formulas .title h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #ffcc00;
+    font-weight: bold;
+}
+
+/* Stiluri pentru citat pe pagina "Formule Interesante" */
+body.interesting-formulas .quote p {
+    font-size: 1.5em;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+/* Stiluri pentru descrierea formulelor interesante */
+body.interesting-formulas .description p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+/* Stiluri pentru lista de formule */
+body.interesting-formulas .formulas-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+body.interesting-formulas .formulas-list li {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #fff;
+}
+
+body.interesting-formulas .formulas-list span {
+    color: #ffcc00;
+    font-weight: bold;
+}
+
+/* Stil pentru link-ul "Înapoi la pagina principală" */
+body.interesting-formulas .back-to-home {
+    margin-top: 30px;
+    text-align: center;
+}
+
+body.interesting-formulas .back-link {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #ffcc00;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+body.interesting-formulas .back-link:hover {
+    color: #ffffff;
+}
+/* Stiluri pentru pagina "Umor Matematic" */
+body.math-humor {
+    background-image: url('https://profesor.md/wp-content/uploads/2020/03/matematica.jpg'); /* Imagine de fundal pentru pagina Umor Matematic */
+    padding-top: 50px; /* Adăugăm un padding pentru a muta chenarul mai jos */
+}
+
+/* Centrarea conținutului pe pagina "Umor Matematic" */
+body.math-humor .background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Stiluri pentru chenarul central pe pagina "Umor Matematic" */
+body.math-humor .content {
+    background-color: rgba(0, 0, 0, 0.6);  /* Umbra mai puternică pentru a evidenția textul */
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 800px;
+    margin-top: 100px;  /* Poziționăm chenarul mai jos pe pagina Umor Matematic */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Stiluri pentru titlu pe pagina "Umor Matematic" */
+body.math-humor .title h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #ffcc00;
+    font-weight: bold;
+}
+
+/* Stiluri pentru citat pe pagina "Umor Matematic" */
+body.math-humor .quote p {
+    font-size: 1.5em;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+/* Stiluri pentru descrierea umorului matematic */
+body.math-humor .description p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+/* Stiluri pentru lista de glume și umor matematic */
+body.math-humor .humor-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+body.math-humor .humor-list li {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #fff;
+}
+
+body.math-humor .humor-list strong {
+    color: #ffcc00;
+}
+
+/* Stil pentru link-ul "Înapoi la pagina principală" */
+body.math-humor .back-to-home {
+    margin-top: 30px;
+    text-align: center;
+}
+
+body.math-humor .back-link {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #ffcc00;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+body.math-humor .back-link:hover {
+    color: #ffffff;
+}
+/* Stiluri pentru pagina "De ce să fii prieten cu matematica" */
+body.friend-with-math {
+    background-image: url('https://profesor.md/wp-content/uploads/2020/03/matematica.jpg'); /* Imagine de fundal pentru pagina "De ce să fii prieten cu matematica" */
+    padding-top: 50px; /* Adăugăm un padding pentru a muta chenarul mai jos */
+}
+
+/* Centrarea conținutului pe pagina "De ce să fii prieten cu matematica" */
+body.friend-with-math .background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Stiluri pentru chenarul central pe pagina "De ce să fii prieten cu matematica" */
+body.friend-with-math .content {
+    background-color: rgba(0, 0, 0, 0.6);  /* Umbra mai puternică pentru a evidenția textul */
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 800px;
+    margin-top: 100px;  /* Poziționăm chenarul mai jos pe pagina "De ce să fii prieten cu matematica" */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Stiluri pentru titlu pe pagina "De ce să fii prieten cu matematica" */
+body.friend-with-math .title h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #ffcc00;
+    font-weight: bold;
+}
+
+/* Stiluri pentru citat pe pagina "De ce să fii prieten cu matematica" */
+body.friend-with-math .quote p {
+    font-size: 1.5em;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+/* Stiluri pentru descrierea paginii */
+body.friend-with-math .description p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+/* Stiluri pentru lista de motive pentru a fi prieten cu matematica */
+body.friend-with-math .reasons ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+body.friend-with-math .reasons li {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #fff;
+}
+
+body.friend-with-math .reasons strong {
+    color: #ffcc00;
+}
+
+/* Stil pentru link-ul "Înapoi la pagina principală" */
+body.friend-with-math .back-to-home {
+    margin-top: 30px;
+    text-align: center;
+}
+
+body.friend-with-math .back-link {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #ffcc00;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+body.friend-with-math .back-link:hover {
+    color: #ffffff;
+}
